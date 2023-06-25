@@ -17,14 +17,14 @@ for(i=0; i<6; i++) {
   console.log(i); 
 }
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
-//   - Which part of the example loop do you need to change to do this? change the initial expression and set it to 3. 
+//   - Which part of the example loop do you need to change to do this? change the initial expression and set it to 3 and changing the condition to be less than 6. 
 console.log('count from 3 to 5');
 for (i = 3; i <6; i++){
   console.log(i); 
 }
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
-//   - Which part of the example loop do you need to change to do this?
+//   - Which part of the example loop do you need to change to do this? changing the intial expression to start at 2 and condition set to less than or equal to 10, and creating new block statement
 // console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 for (let i=2; i<=10; i++){
   if( i % 2 === 0){
